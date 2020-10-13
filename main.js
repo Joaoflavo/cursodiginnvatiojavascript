@@ -9,3 +9,6 @@ alert ( nome + "  nascido em  " + nascido + ", é tem "  + idade + "  anos de pr
     var a = prompt("Digite seu nome Por favor:","Nome");
     document.write("<strong>Bom dia, " + a + " <br /></strong>");
     document.write("<p><strong>Estamos trabalhando no código ele será JavaScript & Bons estudos!</strong></p>");
+
+    var d = new Date ();
+    document.write("<strong> Olá hoje é:</strong>"  + d );
